@@ -17,6 +17,7 @@ jobs:
         with:
           input_file: Test.rmd
           output_format: pdf_document
+
       - name: Commit files
         run: |
           git config --local core.autocrlf false
