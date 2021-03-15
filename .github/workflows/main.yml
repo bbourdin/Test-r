@@ -37,9 +37,9 @@ jobs:
 
         with:
 
-          input_file: path/to/my_doc.Rmd
+          input_file: Test.rmd
 
-	  output_format: pdf_document
+	output_format: html_document
 
       - name: Commit files
 
