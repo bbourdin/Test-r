@@ -18,7 +18,7 @@ jobs:
         uses: lc5415/rmarkdown-action@v1
         with:
           input_file: Test.rmd
-          output_format: pdf_document
+          output_format: html_document
 
       - name: Commit files
         run: |
